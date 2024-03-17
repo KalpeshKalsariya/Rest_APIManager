@@ -12,11 +12,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         // Fetch customer data
         fetchCustomers()
     }
-
 
 }
 
@@ -27,7 +29,7 @@ extension ViewController {
     private func fetchCustomers() {
         // The URL of the API endpoint.
         guard let url = URL(string: "\(APIConstants.baseURL)\(APIConstants.getCustomersEndpoint)") else {
-            print("Invalid URL")
+            self.showToast(message: "Invalid URL", isSuccess: false)
             return
         }
         
@@ -55,6 +57,7 @@ extension ViewController {
                     // Update your UI
                 case .failure(let error):
                     print("Error: \(error)")
+                    self.showToast(message: "\(error)", isSuccess: false)
                     // Handle the error here
                     // Show an error message to the user
                 }
