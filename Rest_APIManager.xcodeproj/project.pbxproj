@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040149302BA7126400DD2A4E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401492F2BA7126400DD2A4E /* Toast.swift */; };
 		040149322BA716E400DD2A4E /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040149312BA716E400DD2A4E /* AppExtension.swift */; };
 		040149342BA7171E00DD2A4E /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040149332BA7171E00DD2A4E /* AppManager.swift */; };
 		04E06CEC2BA6B1EA003CFF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E06CEB2BA6B1EA003CFF0E /* AppDelegate.swift */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0401492F2BA7126400DD2A4E /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		040149312BA716E400DD2A4E /* AppExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
 		040149332BA7171E00DD2A4E /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		04E06CE82BA6B1EA003CFF0E /* Rest_APIManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rest_APIManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,7 +79,6 @@
 		04E06CFF2BA6B1F3003CFF0E /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				0401492F2BA7126400DD2A4E /* Toast.swift */,
 				04E06D002BA6B322003CFF0E /* APIManager.swift */,
 				04E06D082BA6D0A6003CFF0E /* APIConstant.swift */,
 				040149312BA716E400DD2A4E /* AppExtension.swift */,
@@ -167,7 +164,6 @@
 				04E06CEC2BA6B1EA003CFF0E /* AppDelegate.swift in Sources */,
 				04E06D092BA6D0A6003CFF0E /* APIConstant.swift in Sources */,
 				04E06CEE2BA6B1EA003CFF0E /* SceneDelegate.swift in Sources */,
-				040149302BA7126400DD2A4E /* Toast.swift in Sources */,
 				040149342BA7171E00DD2A4E /* AppManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

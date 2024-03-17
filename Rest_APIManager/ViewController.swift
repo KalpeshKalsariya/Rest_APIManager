@@ -29,7 +29,6 @@ extension ViewController {
     private func fetchCustomers() {
         // The URL of the API endpoint.
         guard let url = URL(string: "\(APIConstants.baseURL)\(APIConstants.getCustomersEndpoint)") else {
-            self.showToast(message: "Invalid URL", isSuccess: false)
             return
         }
         
@@ -57,7 +56,6 @@ extension ViewController {
                     // Update your UI
                 case .failure(let error):
                     print("Error: \(error)")
-                    self.showToast(message: "\(error)", isSuccess: false)
                     // Handle the error here
                     // Show an error message to the user
                 }

@@ -14,21 +14,6 @@ extension UIViewController {
         return UIApplication.shared.delegate as! AppDelegate
     }
     
-    func showToast(message: String?, isSuccess: Bool, withDuration:TimeInterval = 2) {
-        if let msg = message {
-            
-            let topView = AppManager.shared.topViewController()
-            
-            topView.view.hideAllToasts()
-            var duration = withDuration
-            if (message?.count ?? 0) > 60 {
-                duration = 3
-            }
-            topView.view?.makeToast(msg,isSuccess: isSuccess,duration: duration, completion: { (success) in
-            })
-        }
-    }
-    
     func getTopViewController() -> UIViewController {
         
         if let tabbarVC = self as? UITabBarController, let selectedVC = tabbarVC.selectedViewController {
