@@ -1,6 +1,7 @@
-# Rest_APIManager
+# Workflow
 
 //ViewConroller 
+
 In iOS, API calls are usually made in the lifecycle methods of the ViewController or in response to user interaction. Here are some common places where you might call an API:
 
 - viewDidLoad(): This method is called after the view controller has loaded its view hierarchy into memory. This is often a good place to make API calls for data that needs to be displayed as soon as the view loads.
