@@ -8,8 +8,8 @@
 import Foundation
 
 struct APIConstants {
-    static let baseURL = "https://issg.shopfast.net/sf_API/Service/Json/"
-    static let getCustomersEndpoint = "GetCustomers"
+    static let baseURL = "" // put your base url
+    static let getCustomersEndpoint = "" // put your API end point
 }
 
 struct ConstantMessage {
